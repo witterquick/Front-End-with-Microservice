@@ -22,7 +22,6 @@ func main() {
 	}
 }
 
-//go:embed templates
 var templateFS embed.FS
 
 // render generates a page of html from our template files
